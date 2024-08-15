@@ -44,7 +44,7 @@ input {
     display: grid;
     grid-template-columns: 1fr;
     width: 800px;
-    background-color: aquamarine;
+    background-color: #E0F7FA;
 }
 
 #container div {
