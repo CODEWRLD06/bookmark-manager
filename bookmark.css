@@ -37,8 +37,13 @@ input {
     background-color: blue;
     border-radius: 10px;
     cursor: pointer;
+    color: white;
 }
-
+#addBtn:hover{
+    background-color: #ffffff;
+    transition: .5s ease;
+    color: black;
+}
 #container {
     margin: 20px 170px;
     display: grid;
@@ -68,6 +73,8 @@ input {
     border-radius: 10px;
     height: 40px;
     padding: 0 15px;
+    background-color: blue;
+    color: white;
 }
 
 #container button:nth-of-type(1) {
@@ -76,6 +83,11 @@ input {
 
 #container button:nth-of-type(2) {
     margin-left: 10px;
+}
+#container button:hover{
+    background-color: white;
+    transition: .5s ease;
+    color: black;
 }
 
 .new-link-name, .new-url{
