@@ -36,7 +36,7 @@ input {
     grid-column: span 2;
     background-color: blue;
     border-radius: 10px;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 
 #container {
@@ -78,6 +78,6 @@ input {
     margin-left: 10px;
 }
 
-/* .new-link-name{
-    border-radius: 10px;
-} */
+.new-link-name, .new-url{
+    padding: 10px;
+}
