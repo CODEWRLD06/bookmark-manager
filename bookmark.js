@@ -7,8 +7,9 @@ const container = document.getElementById('container');
 const isValidUrl = (string) => {
     try {
         new URL(string);
+        return true;
     } catch (_) {
-        alert('invalid url');
+        return false;
     }
 };
 
@@ -41,7 +42,7 @@ const addSite = () => {
         newUrl.type = 'url';
         newUrl.placeholder = 'Input new url';
         link.textContent = url.textContent;
-        newUrl.value = link.textContent;
+        newUrl.value = link.href;
         newUrl.classList.add('new-url')
         link.replaceWith(newUrl);
 
@@ -97,6 +98,3 @@ addBtn.addEventListener('click', () => {
         alert('Please fill the urlName and url fields');
     };
 });
-
-
-
