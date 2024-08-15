@@ -32,7 +32,7 @@ input {
     padding: 10px;
 }
 
-#addBtn {
+#addBtn, #deleteAllBtn {
     grid-column: span 2;
     background-color: blue;
     border-radius: 10px;
@@ -44,6 +44,13 @@ input {
     transition: .5s ease;
     color: black;
 }
+
+#deleteAllBtn:hover{
+    background-color: #ffffff;
+    transition: .5s ease;
+    color: black;
+}
+
 #container {
     margin: 20px 170px;
     display: grid;
